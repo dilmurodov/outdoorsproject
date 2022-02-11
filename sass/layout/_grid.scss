@@ -3,5 +3,10 @@
     margin: 0 auto;
     background: rgb(116, 91, 91);
     height: 1rem;
-    border: 1px solid rgb(126, 99, 99);
+    border: 1px solid rgb(105, 35, 35);
+    div[class^="col-"]{
+        border: 1px solid red;
+        width: 100px;
+        height: 40px;
+    }
 }
