@@ -1,0 +1,33 @@
+.row-cards-tour .card{
+    position: relative;
+    &.card__side{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-radius:3px;
+
+        &--front{
+            background-color: #fff;
+        }
+    }
+    &__picture{
+
+        height: 23rem;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: screen;
+        &--1{
+            background-image:  linear-gradient(to right bottom, #ffb900 0%, #ff7730 100%), url(/images/img/nat-5.jpg);
+        }
+        &--2{
+            background-image:  linear-gradient(to right bottom, #7ed56f, #28b485), url(/images/img/nat-6.jpg);
+        }
+        &--3{
+            background-image:  linear-gradient(to right bottom, #2998ff, #5643fa), url(/images/img/nat-7.jpg);
+        }
+    }
+}

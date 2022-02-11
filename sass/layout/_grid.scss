@@ -1,12 +1,32 @@
-.row{
-    max-width: $grid-width;
-    margin: 0 auto;
-    background: rgb(116, 91, 91);
-    height: 1rem;
-    border: 1px solid rgb(105, 35, 35);
-    div[class^="col-"]{
-        border: 1px solid red;
-        width: 100px;
-        height: 40px;
+.row-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 17rem;
+}
+.row-1 .col-1-2:not(:last-child) {
+    margin-right: 7rem;
+}
+.row-cards {
+    display: flex;
+    width: 100%;
+    margin: 0 17rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-box {
+    width: 20rem;
+}
+
+.row-cards-tour {
+    margin-top: 10rem;
+    margin: 0 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .col-1-of-3:not(:last-child){
+        margin-right: 6rem;
+    }
+    .card{
+        width: 33rem;
     }
 }

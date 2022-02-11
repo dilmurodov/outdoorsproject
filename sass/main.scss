@@ -17,11 +17,14 @@
 // @import 'layout/forms';
 
 @import "./components/button";
+@import './components/cards';
+@import "./components/card-tour";
 // @import 'components/carousel';
 // @import 'components/cover';
 // @import 'components/dropdown';
 
-@import 'pages/home';
+@import './pages/home';
+@import './components/cards';
 // @import 'pages/contact';
 
 // @import 'themes/theme';
