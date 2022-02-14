@@ -1,0 +1,48 @@
+
+.footer{
+    &__logo-box{
+        text-align: center;
+    }
+    padding: 10rem 0;
+    background-color: #333333;
+    &__navigation{
+        ul{
+            padding: 2rem 0;
+            border-top: 3px solid #777777;
+            display: flex;
+            li:not(:last-child){
+                margin-right: 2rem;
+            }
+            text-transform: uppercase;
+            color: #f7f7f7f7;
+            text-decoration: none;
+            li{
+                a{
+                    background-color: #333333;
+                    transition: 0.3s;
+                    padding: 0.3rem;
+
+                }
+                a:hover{
+                    display: inline-block;
+                    transform: scale(1.3) skewY(10deg);
+                    color: $color-primary;
+                    box-shadow: 0 0.7rem 1rem rgba(#000000, $alpha: 0.6);
+                    padding: 0.3rem;
+                }
+                display: inline-block;
+            }
+            
+        }
+    }
+    &__paragaph{
+        width: 52rem;
+        display: inline-block;
+        font-size: 1.6rem;
+        padding-top: 2rem;
+        float: right;
+        border-top: 3px solid #777777;
+        color: #f7f7f7f7;
+        line-height: 2;
+    }
+}

@@ -56,10 +56,17 @@
 }
 .section-tours{
     padding: 25rem 0;
+    padding-bottom: 10rem;
     background-color: $background-color;
     margin-top: -15rem;
     .heading-secondary{
         margin-top: 4rem;
     }
     
+}
+.section-stories{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
 }
