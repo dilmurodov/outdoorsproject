@@ -2,10 +2,9 @@ html {
     font-size: 10px;
 }
 
-body {
-    position: relative;
+body{
     margin: 0;
-    padding: 3rem;
+    padding: 0 3rem;
 }
 
 *{
@@ -14,4 +13,8 @@ body {
 }
 ul, li{
     list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
